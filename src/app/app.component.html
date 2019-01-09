@@ -1,0 +1,26 @@
+<form>
+  <div *ngFor="let rule of rules; let i = index;">
+    <div>
+      <p>Rule {{i+1}}:</p>
+
+      <tag-input [(ngModel)]="rule.companyFunctionModels" name="function{{i}}" [onlyFromAutocomplete]="true" placeholder="Another tag" secondaryPlaceholder="Place a Function" [maxItems]="3" [identifyBy]="'id'" [displayBy]="'name'">
+        <tag-input-dropdown [showDropdownIfEmpty]="true" [autocompleteItems]="allFunctionData" [identifyBy]="'id'"  [displayBy]="'name'">
+        </tag-input-dropdown>
+      </tag-input>
+
+      <tag-input [(ngModel)]="rule.companyRoleModels" name="role{{i}}" [onlyFromAutocomplete]="true" placeholder="Another tag" secondaryPlaceholder="Place a Role" [maxItems]="3" [identifyBy]="'id'" [displayBy]="'name'">
+        <tag-input-dropdown [showDropdownIfEmpty]="true" [autocompleteItems]="allRoleData" [identifyBy]="'id'" [displayBy]="'name'">
+        </tag-input-dropdown>
+      </tag-input>
+
+      <tag-input [(ngModel)]="rule.countryModels" name="country{{i}}" [onlyFromAutocomplete]="true" placeholder="Another tag" secondaryPlaceholder="Place a country" [maxItems]="3" [identifyBy]="'id'" [displayBy]="'name'">
+        <tag-input-dropdown [showDropdownIfEmpty]="true" [autocompleteItems]="allCountryData" [identifyBy]="'id'" [displayBy]="'name'">
+        </tag-input-dropdown>
+      </tag-input>
+    </div>
+  </div>
+  <br>
+
+<button (click)="addRule()">Add Rule</button>
+<button (click)="onSave()" class="save">Save</button>
+</form>
