@@ -1,0 +1,114 @@
+[
+  {
+    "rules": [
+      {
+        "ruleId": 11,
+        "companyFunctionModels": [
+          {
+            "id": 68,
+            "name": "sandeep"
+          }
+        ],
+        "countryModels": [
+          {
+            "id": 4,
+            "alphaCode": "AS",
+            "isdCode": "1-684",
+            "name": "American Samoa"
+          }
+        ],
+        "companyRoleModels": [
+          {
+            "id": 15,
+            "name": "asdsa"
+          },
+          {
+            "id": 16,
+            "name": "sanddep"
+          }
+        ]
+      },
+      {
+        "ruleId": 12,
+        "companyFunctionModels": [
+          {
+            "id": 68,
+            "name": "sandeep"
+          }
+        ],
+        "countryModels": [
+          {
+            "id": 4,
+            "alphaCode": "AS",
+            "isdCode": "1-684",
+            "name": "American Samoa"
+          }
+        ],
+        "companyRoleModels": [
+          {
+            "id": 16,
+            "name": "sanddep"
+          },
+          {
+            "id": 15,
+            "name": "asdsa"
+          }
+        ]
+      },
+      {
+        "ruleId": 13,
+        "companyFunctionModels": [
+          {
+            "id": 68,
+            "name": "sandeep"
+          }
+        ],
+        "countryModels": [
+          {
+            "id": 4,
+            "alphaCode": "AS",
+            "isdCode": "1-684",
+            "name": "American Samoa"
+          }
+        ],
+        "companyRoleModels": [
+          {
+            "id": 15,
+            "name": "asdsa"
+          },
+          {
+            "id": 16,
+            "name": "sanddep"
+          }
+        ]
+      },
+      {
+        "ruleId": 14,
+        "companyFunctionModels": [
+          {
+            "id": 68,
+            "name": "sandeep"
+          }
+        ],
+        "countryModels": [
+          {
+            "id": 4,
+            "alphaCode": "AS",
+            "isdCode": "1-684",
+            "name": "American Samoa"
+          }
+        ],
+        "companyRoleModels": [
+          {
+            "id": 15,
+            "name": "asdsa"
+          },
+          {
+            "id": 16,
+            "name": "sanddep"
+          }
+        ]
+      }
+    ]
+  }
+]
